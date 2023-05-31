@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+.navbar a.active {
+  background-color: #666;
+
+  font-weight: 700;
+  color: rgb(98, 230, 193);
+}
